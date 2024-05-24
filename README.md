@@ -5,6 +5,16 @@
 3. Install flask using pip - "pip install flask" 
 4. Run app.py file using - "python app.py"
 
+5 . Use the below curl to run the API
+```
+curl --location 'http://127.0.0.1:5000/clean' \
+--header 'Content-Dispositio: attachment' \
+--form 'file=@"/C:/Users/Anirudh/Documents/input.ts"'
+
+
+```
+
+
 
 Assumptions -
 
