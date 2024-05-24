@@ -1,0 +1,1037 @@
+2024-05-24 15:12:56,505 - set_logs - INFO - Errors during execution:
+2024-05-24 15:12:56,506 - set_logs - INFO - C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+input.ts(2,10): error TS7010: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+input.ts(2,14): error TS2300: Duplicate identifier 'x'.
+input.ts(2,36): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(3,12): error TS2300: Duplicate identifier 'x'.
+input.ts(3,12): error TS2842: 'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?
+input.ts(3,16): error TS2304: Cannot find name 'y'.
+input.ts(8,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(13,16): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+input.ts(17,28): error TS7006: Parameter 'y' implicitly has an 'any' type.
+input.ts(17,30): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(26,5): error TS2322: Type 'string' is not assignable to type 'number'.
+input.ts(30,38): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(37,9): error TS2322: Type 'undefined' is not assignable to type 'number'.
+input.ts(43,10): error TS2391: Function implementation is missing or not immediately following the declaration.
+input.ts(44,5): error TS2304: Cannot find name 'n'.
+input.ts(46,32): error TS2304: Cannot find name 'n'.
+input.ts(47,9): error TS2304: Cannot find name 'n'.
+input.ts(54,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(64,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(80,5): error TS2322: Type 'number' is not assignable to type 'boolean'.
+input.ts(94,5): error TS2322: Type 'string' is not assignable to type 'undefined'.
+input.ts(104,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(108,46): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(118,5): error TS2322: Type 'T | undefined' is not assignable to type 'undefined'.
+  Type 'T' is not assignable to type 'undefined'.
+input.ts(2,34): error TS1005: ',' expected.
+input.ts(2,43): error TS1005: ',' expected.
+input.ts(3,12): error TS1005: ':' expected.
+input.ts(3,14): error TS1005: ',' expected.
+input.ts(4,1): error TS1128: Declaration or statement expected.
+input.ts(17,30): error TS1005: ',' expected.
+input.ts(50,1): error TS1128: Declaration or statement expected.
+
+    at createTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12) {
+  diagnosticCodes: [
+    7010, 2300, 7006, 2300, 2842,
+    2304, 2322, 2363, 7006, 7006,
+    2322, 2355, 2322, 2391, 2304,
+    2304, 2304, 2322, 2322, 2322,
+    2322, 2322, 2355, 2322, 1005,
+    1005, 1005, 1005, 1128, 1005,
+    1128
+  ]
+}
+
+2024-05-24 15:12:56,507 - set_logs - INFO - <callable_iterator object at 0x000001D013756620>
+2024-05-24 15:12:56,507 - set_logs - INFO - Functions to comment out: [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:12:56,570 - set_logs - INFO - [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:12:56,571 - set_logs - INFO - =======result=============
+2024-05-24 15:12:56,571 - set_logs - INFO - // Function with a syntax error (missing closing parenthesis)
+/*
+
+Line: 2, Error: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+
+ function add(x: number, y: number: number {
+    return x + y;
+}
+
+// Function with a type error (returning a string instead of a number)
+ */
+/*
+
+Line: 8, Error: Type 'number' is not assignable to type 'string'.
+
+ function subtract(x: number, y: number): string {
+    return x - y;
+}
+
+// Function with a type error (parameter y is a string instead of a number)
+ */
+/*
+
+Line: 13, Error: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+ function multiply(x: number, y: string): number {
+    return x * y;
+}
+
+// Function with a syntax error (missing colon after parameter y)
+ */
+/*
+
+Line: 17, Error: Parameter 'y' implicitly has an 'any' type.
+
+ function divide(x: number, y number): number {
+    if (y === 0) {
+        throw new Error("Division by zero");
+    }
+    return x / y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+/*
+
+Line: 26, Error: Type 'string' is not assignable to type 'number'.
+
+ function stringLength(str: string): number {
+    return str;
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 30, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function reverseString(str: string): string {
+    str.split("").reverse().join("");
+}
+
+// Function with a type error (returning undefined instead of number)
+ */
+/*
+
+Line: 37, Error: Type 'undefined' is not assignable to type 'number'.
+
+ function factorial(n: number): number {
+    if (n === 0 || n === 1) {
+        return;
+    }
+    return n * factorial(n - 1);
+}
+
+// Function with a syntax error (missing curly braces)
+ */
+/*
+
+Line: 43, Error: Function implementation is missing or not immediately following the declaration.
+
+ function isPrime(n: number): boolean
+if (n <= 1)
+    return false;
+for (let i = 2; i <= Math.sqrt(n); i++)
+    if (n % i === 0)
+        return false;
+return true;
+}
+
+// Function with a type error (returning a number instead of boolean)
+ */
+/*
+
+Line: 54, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function fahrenheitToCelsius(f: number): number {
+    return true;
+}
+
+// Function with a syntax error (missing semicolon)
+ */
+function celsiusToFahrenheit(c: number): number {
+    return (c * 9 / 5) + 32
+}
+
+// Function with a type error (returning string instead of number)
+/*
+
+Line: 64, Error: Type 'number' is not assignable to type 'string'.
+
+ function max(x: number, y: number): string {
+    return x > y ? x : y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+function min(x: number, y: number): number {
+    return x < y ? x : y;
+}
+
+// Function with a syntax error (missing closing bracket for if statement)
+function isPalindrome(str: string): boolean {
+    const reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
+
+// Function with a type error (returning boolean instead of number)
+/*
+
+Line: 80, Error: Type 'number' is not assignable to type 'boolean'.
+
+ function getRandomNumber(min: number, max: number): boolean {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Function with a syntax error (missing parameter type)
+ */
+function shuffleArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Function with a type error (returning undefined instead of string)
+/*
+
+Line: 94, Error: Type 'string' is not assignable to type 'undefined'.
+
+ function capitalizeFirstLetter(str: string): undefined {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Function with a syntax error (missing return type)
+ */
+function isEven(n: number) {
+    return n % 2 === 0;
+}
+
+// Function with a type error (returning a number instead of boolean)
+/*
+
+Line: 104, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function isOdd(n: number): number {
+    return !isEven(n);
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 108, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function indexOf<T>(array: T[], element: T): number {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            i;
+        }
+    }
+}
+
+// Function with a type error (returning undefined instead of T)
+ */
+/*
+
+Line: 118, Error: Type 'T | undefined' is not assignable to type 'undefined'.
+
+ function getLastElement<T>(array: T[]): undefined {
+    return array.length > 0 ? array[array.length - 1] : undefined;
+}
+ */
+
+2024-05-24 15:12:56,573 - set_logs - INFO - Modified TypeScript file to comment out error-causing functions.
+2024-05-24 15:16:19,836 - set_logs - INFO - Errors during execution:
+2024-05-24 15:16:19,836 - set_logs - INFO - C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+input.ts(2,10): error TS7010: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+input.ts(2,14): error TS2300: Duplicate identifier 'x'.
+input.ts(2,36): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(3,12): error TS2300: Duplicate identifier 'x'.
+input.ts(3,12): error TS2842: 'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?
+input.ts(3,16): error TS2304: Cannot find name 'y'.
+input.ts(8,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(13,16): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+input.ts(17,28): error TS7006: Parameter 'y' implicitly has an 'any' type.
+input.ts(17,30): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(26,5): error TS2322: Type 'string' is not assignable to type 'number'.
+input.ts(30,38): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(37,9): error TS2322: Type 'undefined' is not assignable to type 'number'.
+input.ts(43,10): error TS2391: Function implementation is missing or not immediately following the declaration.
+input.ts(44,5): error TS2304: Cannot find name 'n'.
+input.ts(46,32): error TS2304: Cannot find name 'n'.
+input.ts(47,9): error TS2304: Cannot find name 'n'.
+input.ts(54,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(64,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(80,5): error TS2322: Type 'number' is not assignable to type 'boolean'.
+input.ts(94,5): error TS2322: Type 'string' is not assignable to type 'undefined'.
+input.ts(104,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(108,46): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(118,5): error TS2322: Type 'T | undefined' is not assignable to type 'undefined'.
+  Type 'T' is not assignable to type 'undefined'.
+input.ts(2,34): error TS1005: ',' expected.
+input.ts(2,43): error TS1005: ',' expected.
+input.ts(3,12): error TS1005: ':' expected.
+input.ts(3,14): error TS1005: ',' expected.
+input.ts(4,1): error TS1128: Declaration or statement expected.
+input.ts(17,30): error TS1005: ',' expected.
+input.ts(50,1): error TS1128: Declaration or statement expected.
+
+    at createTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12) {
+  diagnosticCodes: [
+    7010, 2300, 7006, 2300, 2842,
+    2304, 2322, 2363, 7006, 7006,
+    2322, 2355, 2322, 2391, 2304,
+    2304, 2304, 2322, 2322, 2322,
+    2322, 2322, 2355, 2322, 1005,
+    1005, 1005, 1005, 1128, 1005,
+    1128
+  ]
+}
+
+2024-05-24 15:16:19,837 - set_logs - INFO - <callable_iterator object at 0x0000025921FCBB50>
+2024-05-24 15:16:19,837 - set_logs - INFO - Functions to comment out: [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:16:19,839 - set_logs - INFO - [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:16:19,840 - set_logs - INFO - =======result=============
+2024-05-24 15:16:19,840 - set_logs - INFO - // Function with a syntax error (missing closing parenthesis)
+/*
+
+Line: 2, Error: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+
+ function add(x: number, y: number: number {
+    return x + y;
+}
+
+// Function with a type error (returning a string instead of a number)
+ */
+/*
+
+Line: 8, Error: Type 'number' is not assignable to type 'string'.
+
+ function subtract(x: number, y: number): string {
+    return x - y;
+}
+
+// Function with a type error (parameter y is a string instead of a number)
+ */
+/*
+
+Line: 13, Error: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+ function multiply(x: number, y: string): number {
+    return x * y;
+}
+
+// Function with a syntax error (missing colon after parameter y)
+ */
+/*
+
+Line: 17, Error: Parameter 'y' implicitly has an 'any' type.
+
+ function divide(x: number, y number): number {
+    if (y === 0) {
+        throw new Error("Division by zero");
+    }
+    return x / y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+/*
+
+Line: 26, Error: Type 'string' is not assignable to type 'number'.
+
+ function stringLength(str: string): number {
+    return str;
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 30, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function reverseString(str: string): string {
+    str.split("").reverse().join("");
+}
+
+// Function with a type error (returning undefined instead of number)
+ */
+/*
+
+Line: 37, Error: Type 'undefined' is not assignable to type 'number'.
+
+ function factorial(n: number): number {
+    if (n === 0 || n === 1) {
+        return;
+    }
+    return n * factorial(n - 1);
+}
+
+// Function with a syntax error (missing curly braces)
+ */
+/*
+
+Line: 43, Error: Function implementation is missing or not immediately following the declaration.
+
+ function isPrime(n: number): boolean
+if (n <= 1)
+    return false;
+for (let i = 2; i <= Math.sqrt(n); i++)
+    if (n % i === 0)
+        return false;
+return true;
+}
+
+// Function with a type error (returning a number instead of boolean)
+ */
+/*
+
+Line: 54, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function fahrenheitToCelsius(f: number): number {
+    return true;
+}
+
+// Function with a syntax error (missing semicolon)
+ */
+function celsiusToFahrenheit(c: number): number {
+    return (c * 9 / 5) + 32
+}
+
+// Function with a type error (returning string instead of number)
+/*
+
+Line: 64, Error: Type 'number' is not assignable to type 'string'.
+
+ function max(x: number, y: number): string {
+    return x > y ? x : y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+function min(x: number, y: number): number {
+    return x < y ? x : y;
+}
+
+// Function with a syntax error (missing closing bracket for if statement)
+function isPalindrome(str: string): boolean {
+    const reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
+
+// Function with a type error (returning boolean instead of number)
+/*
+
+Line: 80, Error: Type 'number' is not assignable to type 'boolean'.
+
+ function getRandomNumber(min: number, max: number): boolean {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Function with a syntax error (missing parameter type)
+ */
+function shuffleArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Function with a type error (returning undefined instead of string)
+/*
+
+Line: 94, Error: Type 'string' is not assignable to type 'undefined'.
+
+ function capitalizeFirstLetter(str: string): undefined {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Function with a syntax error (missing return type)
+ */
+function isEven(n: number) {
+    return n % 2 === 0;
+}
+
+// Function with a type error (returning a number instead of boolean)
+/*
+
+Line: 104, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function isOdd(n: number): number {
+    return !isEven(n);
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 108, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function indexOf<T>(array: T[], element: T): number {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            i;
+        }
+    }
+}
+
+// Function with a type error (returning undefined instead of T)
+ */
+/*
+
+Line: 118, Error: Type 'T | undefined' is not assignable to type 'undefined'.
+
+ function getLastElement<T>(array: T[]): undefined {
+    return array.length > 0 ? array[array.length - 1] : undefined;
+}
+ */
+
+2024-05-24 15:16:19,842 - set_logs - INFO - Modified TypeScript file to comment out error-causing functions.
+2024-05-24 15:17:26,757 - set_logs - INFO - Errors during execution:
+2024-05-24 15:17:26,758 - set_logs - INFO - C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+input.ts(2,10): error TS7010: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+input.ts(2,14): error TS2300: Duplicate identifier 'x'.
+input.ts(2,36): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(3,12): error TS2300: Duplicate identifier 'x'.
+input.ts(3,12): error TS2842: 'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?
+input.ts(3,16): error TS2304: Cannot find name 'y'.
+input.ts(8,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(13,16): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+input.ts(17,28): error TS7006: Parameter 'y' implicitly has an 'any' type.
+input.ts(17,30): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(26,5): error TS2322: Type 'string' is not assignable to type 'number'.
+input.ts(30,38): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(37,9): error TS2322: Type 'undefined' is not assignable to type 'number'.
+input.ts(43,10): error TS2391: Function implementation is missing or not immediately following the declaration.
+input.ts(44,5): error TS2304: Cannot find name 'n'.
+input.ts(46,32): error TS2304: Cannot find name 'n'.
+input.ts(47,9): error TS2304: Cannot find name 'n'.
+input.ts(54,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(64,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(80,5): error TS2322: Type 'number' is not assignable to type 'boolean'.
+input.ts(94,5): error TS2322: Type 'string' is not assignable to type 'undefined'.
+input.ts(104,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(108,46): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(118,5): error TS2322: Type 'T | undefined' is not assignable to type 'undefined'.
+  Type 'T' is not assignable to type 'undefined'.
+input.ts(2,34): error TS1005: ',' expected.
+input.ts(2,43): error TS1005: ',' expected.
+input.ts(3,12): error TS1005: ':' expected.
+input.ts(3,14): error TS1005: ',' expected.
+input.ts(4,1): error TS1128: Declaration or statement expected.
+input.ts(17,30): error TS1005: ',' expected.
+input.ts(50,1): error TS1128: Declaration or statement expected.
+
+    at createTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12) {
+  diagnosticCodes: [
+    7010, 2300, 7006, 2300, 2842,
+    2304, 2322, 2363, 7006, 7006,
+    2322, 2355, 2322, 2391, 2304,
+    2304, 2304, 2322, 2322, 2322,
+    2322, 2322, 2355, 2322, 1005,
+    1005, 1005, 1005, 1128, 1005,
+    1128
+  ]
+}
+
+2024-05-24 15:17:26,758 - set_logs - INFO - <callable_iterator object at 0x00000259247920B0>
+2024-05-24 15:17:26,758 - set_logs - INFO - Functions to comment out: [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:17:26,761 - set_logs - INFO - [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:17:26,761 - set_logs - INFO - =======result=============
+2024-05-24 15:17:26,761 - set_logs - INFO - // Function with a syntax error (missing closing parenthesis)
+/*
+
+Line: 2, Error: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+
+ function add(x: number, y: number: number {
+    return x + y;
+}
+
+// Function with a type error (returning a string instead of a number)
+ */
+/*
+
+Line: 8, Error: Type 'number' is not assignable to type 'string'.
+
+ function subtract(x: number, y: number): string {
+    return x - y;
+}
+
+// Function with a type error (parameter y is a string instead of a number)
+ */
+/*
+
+Line: 13, Error: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+ function multiply(x: number, y: string): number {
+    return x * y;
+}
+
+// Function with a syntax error (missing colon after parameter y)
+ */
+/*
+
+Line: 17, Error: Parameter 'y' implicitly has an 'any' type.
+
+ function divide(x: number, y number): number {
+    if (y === 0) {
+        throw new Error("Division by zero");
+    }
+    return x / y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+/*
+
+Line: 26, Error: Type 'string' is not assignable to type 'number'.
+
+ function stringLength(str: string): number {
+    return str;
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 30, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function reverseString(str: string): string {
+    str.split("").reverse().join("");
+}
+
+// Function with a type error (returning undefined instead of number)
+ */
+/*
+
+Line: 37, Error: Type 'undefined' is not assignable to type 'number'.
+
+ function factorial(n: number): number {
+    if (n === 0 || n === 1) {
+        return;
+    }
+    return n * factorial(n - 1);
+}
+
+// Function with a syntax error (missing curly braces)
+ */
+/*
+
+Line: 43, Error: Function implementation is missing or not immediately following the declaration.
+
+ function isPrime(n: number): boolean
+if (n <= 1)
+    return false;
+for (let i = 2; i <= Math.sqrt(n); i++)
+    if (n % i === 0)
+        return false;
+return true;
+}
+
+// Function with a type error (returning a number instead of boolean)
+ */
+/*
+
+Line: 54, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function fahrenheitToCelsius(f: number): number {
+    return true;
+}
+
+// Function with a syntax error (missing semicolon)
+ */
+function celsiusToFahrenheit(c: number): number {
+    return (c * 9 / 5) + 32
+}
+
+// Function with a type error (returning string instead of number)
+/*
+
+Line: 64, Error: Type 'number' is not assignable to type 'string'.
+
+ function max(x: number, y: number): string {
+    return x > y ? x : y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+function min(x: number, y: number): number {
+    return x < y ? x : y;
+}
+
+// Function with a syntax error (missing closing bracket for if statement)
+function isPalindrome(str: string): boolean {
+    const reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
+
+// Function with a type error (returning boolean instead of number)
+/*
+
+Line: 80, Error: Type 'number' is not assignable to type 'boolean'.
+
+ function getRandomNumber(min: number, max: number): boolean {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Function with a syntax error (missing parameter type)
+ */
+function shuffleArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Function with a type error (returning undefined instead of string)
+/*
+
+Line: 94, Error: Type 'string' is not assignable to type 'undefined'.
+
+ function capitalizeFirstLetter(str: string): undefined {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Function with a syntax error (missing return type)
+ */
+function isEven(n: number) {
+    return n % 2 === 0;
+}
+
+// Function with a type error (returning a number instead of boolean)
+/*
+
+Line: 104, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function isOdd(n: number): number {
+    return !isEven(n);
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 108, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function indexOf<T>(array: T[], element: T): number {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            i;
+        }
+    }
+}
+
+// Function with a type error (returning undefined instead of T)
+ */
+/*
+
+Line: 118, Error: Type 'T | undefined' is not assignable to type 'undefined'.
+
+ function getLastElement<T>(array: T[]): undefined {
+    return array.length > 0 ? array[array.length - 1] : undefined;
+}
+ */
+
+2024-05-24 15:17:26,764 - set_logs - INFO - Modified TypeScript file to comment out error-causing functions.
+2024-05-24 15:18:05,146 - set_logs - INFO - Errors during execution:
+2024-05-24 15:18:05,147 - set_logs - INFO - C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+input.ts(2,10): error TS7010: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+input.ts(2,14): error TS2300: Duplicate identifier 'x'.
+input.ts(2,36): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(3,12): error TS2300: Duplicate identifier 'x'.
+input.ts(3,12): error TS2842: 'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?
+input.ts(3,16): error TS2304: Cannot find name 'y'.
+input.ts(8,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(13,16): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+input.ts(17,28): error TS7006: Parameter 'y' implicitly has an 'any' type.
+input.ts(17,30): error TS7006: Parameter 'number' implicitly has an 'any' type.
+input.ts(26,5): error TS2322: Type 'string' is not assignable to type 'number'.
+input.ts(30,38): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(37,9): error TS2322: Type 'undefined' is not assignable to type 'number'.
+input.ts(43,10): error TS2391: Function implementation is missing or not immediately following the declaration.
+input.ts(44,5): error TS2304: Cannot find name 'n'.
+input.ts(46,32): error TS2304: Cannot find name 'n'.
+input.ts(47,9): error TS2304: Cannot find name 'n'.
+input.ts(54,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(64,5): error TS2322: Type 'number' is not assignable to type 'string'.
+input.ts(80,5): error TS2322: Type 'number' is not assignable to type 'boolean'.
+input.ts(94,5): error TS2322: Type 'string' is not assignable to type 'undefined'.
+input.ts(104,5): error TS2322: Type 'boolean' is not assignable to type 'number'.
+input.ts(108,46): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+input.ts(118,5): error TS2322: Type 'T | undefined' is not assignable to type 'undefined'.
+  Type 'T' is not assignable to type 'undefined'.
+input.ts(2,34): error TS1005: ',' expected.
+input.ts(2,43): error TS1005: ',' expected.
+input.ts(3,12): error TS1005: ':' expected.
+input.ts(3,14): error TS1005: ',' expected.
+input.ts(4,1): error TS1128: Declaration or statement expected.
+input.ts(17,30): error TS1005: ',' expected.
+input.ts(50,1): error TS1128: Declaration or statement expected.
+
+    at createTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Anirudh\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12) {
+  diagnosticCodes: [
+    7010, 2300, 7006, 2300, 2842,
+    2304, 2322, 2363, 7006, 7006,
+    2322, 2355, 2322, 2391, 2304,
+    2304, 2304, 2322, 2322, 2322,
+    2322, 2322, 2355, 2322, 1005,
+    1005, 1005, 1005, 1128, 1005,
+    1128
+  ]
+}
+
+2024-05-24 15:18:05,147 - set_logs - INFO - <callable_iterator object at 0x000002BFFF382560>
+2024-05-24 15:18:05,148 - set_logs - INFO - Functions to comment out: [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:18:05,150 - set_logs - INFO - [{'line': 2, 'error_message': "'add', which lacks return-type annotation, implicitly has an 'any' return type."}, {'line': 2, 'error_message': "Duplicate identifier 'x'."}, {'line': 2, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 3, 'error_message': "Duplicate identifier 'x'."}, {'line': 3, 'error_message': "'x' is an unused renaming of 'return'. Did you intend to use it as a type annotation?"}, {'line': 3, 'error_message': "Cannot find name 'y'."}, {'line': 8, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 13, 'error_message': "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."}, {'line': 17, 'error_message': "Parameter 'y' implicitly has an 'any' type."}, {'line': 17, 'error_message': "Parameter 'number' implicitly has an 'any' type."}, {'line': 26, 'error_message': "Type 'string' is not assignable to type 'number'."}, {'line': 30, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 37, 'error_message': "Type 'undefined' is not assignable to type 'number'."}, {'line': 43, 'error_message': 'Function implementation is missing or not immediately following the declaration.'}, {'line': 44, 'error_message': "Cannot find name 'n'."}, {'line': 46, 'error_message': "Cannot find name 'n'."}, {'line': 47, 'error_message': "Cannot find name 'n'."}, {'line': 54, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 64, 'error_message': "Type 'number' is not assignable to type 'string'."}, {'line': 80, 'error_message': "Type 'number' is not assignable to type 'boolean'."}, {'line': 94, 'error_message': "Type 'string' is not assignable to type 'undefined'."}, {'line': 104, 'error_message': "Type 'boolean' is not assignable to type 'number'."}, {'line': 108, 'error_message': "A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."}, {'line': 118, 'error_message': "Type 'T | undefined' is not assignable to type 'undefined'."}, {'line': 2, 'error_message': "',' expected."}, {'line': 2, 'error_message': "',' expected."}, {'line': 3, 'error_message': "':' expected."}, {'line': 3, 'error_message': "',' expected."}, {'line': 4, 'error_message': 'Declaration or statement expected.'}, {'line': 17, 'error_message': "',' expected."}, {'line': 50, 'error_message': 'Declaration or statement expected.'}]
+2024-05-24 15:18:05,150 - set_logs - INFO - =======result=============
+2024-05-24 15:18:05,150 - set_logs - INFO - // Function with a syntax error (missing closing parenthesis)
+/*
+
+Line: 2, Error: 'add', which lacks return-type annotation, implicitly has an 'any' return type.
+
+ function add(x: number, y: number: number {
+    return x + y;
+}
+
+// Function with a type error (returning a string instead of a number)
+ */
+/*
+
+Line: 8, Error: Type 'number' is not assignable to type 'string'.
+
+ function subtract(x: number, y: number): string {
+    return x - y;
+}
+
+// Function with a type error (parameter y is a string instead of a number)
+ */
+/*
+
+Line: 13, Error: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+ function multiply(x: number, y: string): number {
+    return x * y;
+}
+
+// Function with a syntax error (missing colon after parameter y)
+ */
+/*
+
+Line: 17, Error: Parameter 'y' implicitly has an 'any' type.
+
+ function divide(x: number, y number): number {
+    if (y === 0) {
+        throw new Error("Division by zero");
+    }
+    return x / y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+/*
+
+Line: 26, Error: Type 'string' is not assignable to type 'number'.
+
+ function stringLength(str: string): number {
+    return str;
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 30, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function reverseString(str: string): string {
+    str.split("").reverse().join("");
+}
+
+// Function with a type error (returning undefined instead of number)
+ */
+/*
+
+Line: 37, Error: Type 'undefined' is not assignable to type 'number'.
+
+ function factorial(n: number): number {
+    if (n === 0 || n === 1) {
+        return;
+    }
+    return n * factorial(n - 1);
+}
+
+// Function with a syntax error (missing curly braces)
+ */
+/*
+
+Line: 43, Error: Function implementation is missing or not immediately following the declaration.
+
+ function isPrime(n: number): boolean
+if (n <= 1)
+    return false;
+for (let i = 2; i <= Math.sqrt(n); i++)
+    if (n % i === 0)
+        return false;
+return true;
+}
+
+// Function with a type error (returning a number instead of boolean)
+ */
+/*
+
+Line: 54, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function fahrenheitToCelsius(f: number): number {
+    return true;
+}
+
+// Function with a syntax error (missing semicolon)
+ */
+function celsiusToFahrenheit(c: number): number {
+    return (c * 9 / 5) + 32
+}
+
+// Function with a type error (returning string instead of number)
+/*
+
+Line: 64, Error: Type 'number' is not assignable to type 'string'.
+
+ function max(x: number, y: number): string {
+    return x > y ? x : y;
+}
+
+// Function with a type error (returning number instead of string)
+ */
+function min(x: number, y: number): number {
+    return x < y ? x : y;
+}
+
+// Function with a syntax error (missing closing bracket for if statement)
+function isPalindrome(str: string): boolean {
+    const reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
+
+// Function with a type error (returning boolean instead of number)
+/*
+
+Line: 80, Error: Type 'number' is not assignable to type 'boolean'.
+
+ function getRandomNumber(min: number, max: number): boolean {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Function with a syntax error (missing parameter type)
+ */
+function shuffleArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Function with a type error (returning undefined instead of string)
+/*
+
+Line: 94, Error: Type 'string' is not assignable to type 'undefined'.
+
+ function capitalizeFirstLetter(str: string): undefined {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Function with a syntax error (missing return type)
+ */
+function isEven(n: number) {
+    return n % 2 === 0;
+}
+
+// Function with a type error (returning a number instead of boolean)
+/*
+
+Line: 104, Error: Type 'boolean' is not assignable to type 'number'.
+
+ function isOdd(n: number): number {
+    return !isEven(n);
+}
+
+// Function with a syntax error (missing return statement)
+ */
+/*
+
+Line: 108, Error: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+ function indexOf<T>(array: T[], element: T): number {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            i;
+        }
+    }
+}
+
+// Function with a type error (returning undefined instead of T)
+ */
+/*
+
+Line: 118, Error: Type 'T | undefined' is not assignable to type 'undefined'.
+
+ function getLastElement<T>(array: T[]): undefined {
+    return array.length > 0 ? array[array.length - 1] : undefined;
+}
+ */
+
+2024-05-24 15:18:05,151 - set_logs - INFO - Modified TypeScript file to comment out error-causing functions.
+2024-05-24 15:23:50,021 - set_logs - INFO - No errors encountered. TypeScript file is correct.
