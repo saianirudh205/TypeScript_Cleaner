@@ -18,5 +18,5 @@ curl --location 'http://127.0.0.1:5000/clean' \
 
 Assumptions -
 
-1.Hoping the key word function is correctly added in input file 
-2.File only contains functions 
+1. Hoping the key word function is correctly added in input file 
+2. File only contains functions 
